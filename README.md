@@ -1,6 +1,9 @@
 # Weather-Forecast-App
 Created a weather forecast gui on PyCharm using tkinter library of python.
-mport tkinter as tk
+
+
+
+import tkinter as tk
 from tkinter import ttk, messagebox
 import requests
 from datetime import datetime
