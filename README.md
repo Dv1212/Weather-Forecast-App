@@ -17,7 +17,7 @@ class WeatherApp:
         self.window.config(bg='#87CEEB')  # Sky blue background
 
         
-        self.api_key = "6092fd38345ee14c60cd5d433d8b6f5f"  # <-- Replace with your OpenWeatherMap API key
+        self.api_key = "6092fd38345ee14c60cd5d433d8b6f5f"  # Replace with your OpenWeatherMap API key
         
 
         # Create GUI elements
