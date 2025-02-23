@@ -16,9 +16,9 @@ class WeatherApp:
         self.window.geometry('500x600')
         self.window.config(bg='#87CEEB')  # Sky blue background
 
-        # ============= ADD YOUR API KEY HERE =============
+        
         self.api_key = "6092fd38345ee14c60cd5d433d8b6f5f"  # <-- Replace with your OpenWeatherMap API key
-        # ===============================================
+        
 
         # Create GUI elements
         self.create_gui()
@@ -168,7 +168,7 @@ class WeatherApp:
         self.window.mainloop()
 
 
-# Create and run the app
+
 if __name__ == "__main__":
     app = WeatherApp()
     app.run()
